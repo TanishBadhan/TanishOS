@@ -252,17 +252,19 @@ Possible future improvements:
 
 # Screenshots
 
+## Screenshots
+
 ### TanishOS Boot
 
-![TanishOS Boot](screenshots/tanishos-boot.png)
+![TanishOS Boot](screenshots/TanishOS_boot.png)
 
 ### Build Process
 
-![Build Process](screenshots/build-success.png)
+![Build Success](screenshots/build_success.png)
 
 ### Project Structure
 
-![Project Structure](screenshots/project-tree.png)
+![Project Tree](screenshots/Project_Tree.png)
 
 ---
 
