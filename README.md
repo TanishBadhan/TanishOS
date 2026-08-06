@@ -252,18 +252,17 @@ Possible future improvements:
 
 # Screenshots
 
-Screenshots demonstrating TanishOS execution and debugging will be added here.
+### TanishOS Boot
 
-Planned screenshots:
+![TanishOS Boot](screenshots/tanishos-boot.png)
 
-```
-screenshots/
-│
-├── qemu_boot.png
-├── gdb_kernel_entry.png
-├── protected_mode.png
-└── vga_output.png
-```
+### Build Process
+
+![Build Process](screenshots/build-success.png)
+
+### Project Structure
+
+![Project Structure](screenshots/project-tree.png)
 
 ---
 
