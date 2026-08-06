@@ -1,0 +1,44 @@
+# =====================================
+# TanishOS Bochs Configuration
+# =====================================
+
+# RAM
+megs: 32
+
+
+# BIOS ROM
+romimage: file=/usr/share/bochs/BIOS-bochs-latest
+
+# VGA BIOS
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
+
+
+# Debugger log
+debugger_log: bochs_debug.log
+
+
+# Boot from floppy
+boot: floppy
+
+
+# Floppy image
+floppya: 1_44=/home/tanish_badhan/TanishOS/build/tanishos.img, status=inserted
+
+floppy_bootsig_check: disabled=0
+
+# Main log
+log: bochslog.txt
+
+
+# Error handling
+panic: action=ask
+error: action=report
+info: action=report
+
+
+# Display
+display_library: x
+
+
+# Enable debugger breakpoints
+magic_break: enabled=1

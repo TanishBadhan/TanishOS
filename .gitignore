@@ -1,0 +1,31 @@
+cat > .gitignore << 'EOF'
+# Build output
+build/
+
+# Keep build directory
+!build/.gitkeep
+
+# Generated boot binaries
+boot/*.bin
+
+# Logs
+*.log
+
+# Listing files
+*.lst
+
+# NASM expanded output
+expanded.asm
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# VS Code
+.vscode/
+
+# Windows / macOS
+Thumbs.db
+.DS_Store
+EOF
